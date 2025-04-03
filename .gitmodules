@@ -1,0 +1,9 @@
+[submodule "rl_spin_decoupler"]
+	path = rl_spin_decoupler
+	url = https://github.com/uncore-team/rl_spin_decoupler.git
+[submodule "dm_robotics_panda"]
+	path = dm_robotics_panda
+	url = https://github.com/opfernandez/dm_robotics_panda.git
+[submodule "models/myo_sim"]
+	path = models/myo_sim
+	url = https://github.com/opfernandez/myo_sim.git
