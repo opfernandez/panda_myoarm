@@ -5,6 +5,8 @@ Clone the repository:
 ```bash
 git clone https://github.com/opfernandez/panda_myoarm.git
 cd panda_myoarm
+python3 -m venv venv
+source venv/bin/activate
 git submodule init
 git submodule update
 pip3 install -r requirements.txt
@@ -17,6 +19,7 @@ pip3 install -r requirements.txt
 ## Launch Training
 On one terminal:
 ```bash
+cd dm_robotics_panda/examples/
 python3 SBCustomEnv_v3.py -p <port>
 ```
 

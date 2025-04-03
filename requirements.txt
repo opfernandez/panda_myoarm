@@ -9,6 +9,7 @@ dm_robotics-geometry==0.8.1
 dm_robotics-manipulation==0.8.1
 dm_robotics-moma==0.8.1
 dm_robotics-transformations==0.8.1
+dm-robotics-panda==0.4.8
 gym==0.26.2
 gym-notices==0.0.8
 gymnasium==1.0.0
@@ -18,7 +19,8 @@ opencv-python==4.10.0.84
 pandas==2.2.3
 pillow==11.1.0
 protobuf==5.29.1
-stable_baselines3==2.5.0
+Shimmy==2.0.0
+stable-baselines3[extra]==2.5.0
 torch==2.6.0
 tqdm==4.67.1
 imageio==2.37.0
