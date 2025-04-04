@@ -1,6 +1,6 @@
 [submodule "rl_spin_decoupler"]
 	path = rl_spin_decoupler
-	url = https://github.com/uncore-team/rl_spin_decoupler.git
+	url = https://github.com/opfernandez/rl_spin_decoupler.git
 [submodule "dm_robotics_panda"]
 	path = dm_robotics_panda
 	url = https://github.com/opfernandez/dm_robotics_panda.git
