@@ -8,7 +8,7 @@ cd panda_myoarm
 python3 -m venv venv
 source venv/bin/activate
 git submodule init
-git submodule update
+git submodule update --remote --merge
 pip3 install -r requirements.txt
 ```
 
@@ -17,13 +17,13 @@ pip3 install -r requirements.txt
 </p>
 
 ## Launch Training
-On one terminal:
+On one terminal, we launch the SB3 part, the DRL algorithm that infers actions from provided observations:
 ```bash
 cd dm_robotics_panda/examples/
 python3 SBCustomEnv_v3.py -p <port>
 ```
 
-On another terminal:
+On another terminal, we launch the simulation environment where the actions are executed and the observations are generated:
 ```bash
 python3 CustomAgent_v3.py -p <port> -i <your.machine.ip.address>
 ```
